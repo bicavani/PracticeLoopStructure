@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SumOf1toN</title>
+</head>
+<body>
+ <script>
+     let N = parseInt(prompt("N = ", ''));
+     if (N <= 0){
+         alert('Gia tri N khong hop le');
+     }
+     else {
+         let sumOf1ToN = 0;
+         for (let i = 1; i <= N; i++){
+             sumOf1ToN = sumOf1ToN + i;
+         }
+         alert('Tong cac so tu 1 toi N la: ' + sumOf1ToN);
+     }
+ </script>
+</body>
+</html>
